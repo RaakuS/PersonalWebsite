@@ -1,0 +1,1 @@
+(()=>{const c=document.getElementById('theme-toggle'),cls='dark';c.checked=matchMedia('(prefers-color-scheme: dark)').matches;if(c.checked)document.documentElement.classList.add(cls);c.addEventListener('change',e=>{document.documentElement.classList.toggle(cls,e.target.checked);});})();
